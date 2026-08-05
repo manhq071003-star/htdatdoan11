@@ -12,4 +12,5 @@ void main() {
         int a;
     }
     System.out.println("Hello there");
+    System.out.println("Test code")
 }
