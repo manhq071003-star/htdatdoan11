@@ -9,6 +9,9 @@ void main() {
         //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
         IO.println("i = " + i);
-        int Light
+        int min = 1;
+        int max = 100;
+        int randomNum = new java.util.Random().nextInt(max - min + 1) + min;
+        System.out.println(randomNum);
     }
 }
